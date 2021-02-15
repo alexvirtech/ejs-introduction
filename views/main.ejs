@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <%- include ('head') %>
+</head>
+<body>
+    <div class="container">
+        <h1>
+            <%= message %> of <%= name %>
+        </h1>
+        <ul>
+            <% products.forEach(p=>{ %>
+                <li>
+                    <%= p %>
+                </li>
+            <% }); %>
+        </ul>
+        <%- include('foot') %>
+    </div>
+</body>
+</html>
