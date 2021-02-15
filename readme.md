@@ -1,1 +1,1 @@
-example for the basic ejs usage
+example for the basic express and ejs usage
