@@ -35,6 +35,7 @@ app.get('/', (req, res) => {
         })
 })
 
+// other examples
 app.get('/users/:userId', function (req, res) {
     res.send(req.params);
 })
